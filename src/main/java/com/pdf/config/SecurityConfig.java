@@ -54,7 +54,7 @@ public class SecurityConfig {
 		UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
 		CorsConfiguration config = new CorsConfiguration();
 		config.setAllowCredentials(true);
-		config.setAllowedOrigins(Arrays.asList("http://localhost:3000", "http://192.168.2.247:3000"));
+		config.setAllowedOrigins(Arrays.asList("http://localhost:3000", "http://192.168.2.247:3000","https://pdf-system-frontend.vercel.app"));
 		config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE"));
 		config.setAllowedHeaders(Arrays.asList("Authorization", "Content-Type"));
 		source.registerCorsConfiguration("/api/**", config);
