@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.pdf</groupId>
-	<artifactId>RoomRent</artifactId>
+	<artifactId>Pdf</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>RoomRent</name>
-	<description>Room rent backend developement</description>
+	<name>Pdf</name>
+	<description> backend developement</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
